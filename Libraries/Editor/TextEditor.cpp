@@ -940,7 +940,7 @@ void TextEditor::SetColorScheme(ColorScheme& scheme)
   SendEditor(SCI_STYLECLEARALL);
 
   // Set the overall default style for text (foreground and background color)
-  SetAStyle(STYLE_DEFAULT, ToByteColor(scheme.Default), ToByteColor(scheme.Background), mFontSize, "Inconsolata");
+  SetAStyle(STYLE_DEFAULT, ToByteColor(scheme.Default), ToByteColor(scheme.Background), mFontSize, "JetBrainsMonoRegular");
 
   // Set style for Line number / gutter
   SetAStyle(STYLE_LINENUMBER, ToByteColor(scheme.GutterText), ToByteColor(scheme.Gutter));

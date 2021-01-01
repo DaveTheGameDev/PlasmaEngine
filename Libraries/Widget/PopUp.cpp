@@ -43,7 +43,7 @@ void FloatingComposite::UpdateTransform()
   mBackground->SetSize(mSize);
   mBackground->SetColor(PopUpUi::BackgroundColor);
   mDropShadow->SetSize(mSize);
-  mDropShadow->SetTranslation(Pixels(6, 6, 0));
+  mDropShadow->SetTranslation(Pixels(4, 4, 0));
   mBorder->SetSize(mSize);
   Composite::UpdateTransform();
 }

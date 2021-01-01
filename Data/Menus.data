@@ -112,21 +112,22 @@ Menus menus =
 		]
 	},
 	
-	Menu =
+		Menu =
 	{
 		string Name = "Windows",
 		string Description = "",
 		Array Entries = 
 		[
 		  "Properties",
-		  "Library",
-		  "Console",
-		  "Objects",
-		  "OperationHistory",
+		  "Library",		  
+		  "Objects",		 
 		  "Tools",
+		  "Animator",
           "VolumeMeter",
           "SoundNodeGraph",
+		  "Console",
 		  "Divider",
+		   "OperationHistory",
 		  "ToggleFullScreen"
 		]
 	},

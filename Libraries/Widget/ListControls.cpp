@@ -298,7 +298,7 @@ void ListBox::UpdateTransform()
   }
 
   mDropShadow->SetSize(mSize);
-  mDropShadow->SetTranslation(Pixels(6, 6, 0));
+  mDropShadow->SetTranslation(Pixels(4, 4, 0));
 
   PlaceWithRect(listArea, mListArea);
   PlaceWithRect(listArea, mBackground);

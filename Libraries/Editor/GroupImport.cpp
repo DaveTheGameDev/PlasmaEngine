@@ -321,7 +321,7 @@ void GroupImportWindow::UpdateListBoxSource()
 void GroupImportWindow::OnPressed(Event* event)
 {
   RunGroupImport(*mOptions);
-  float time = 0.5f;
+  float time = 0.2f;
   AnimateTo(mParentWindow, Pixels(2000.0f, 200.0f, 0), mParentWindow->GetSize() * 0.5f, time);
 
   ActionSequence* sequence = new ActionSequence(mParentWindow);

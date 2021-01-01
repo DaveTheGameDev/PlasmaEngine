@@ -1245,7 +1245,7 @@ void MultiDock::ComputeAndApplyLayout(bool animate)
     float sizeChanged = (result.PlacedWidget->GetSize() - result.Size).Length();
     if (animate && (distanceMoved > minChange || sizeChanged > minChange))
     {
-      AnimateTo(result.PlacedWidget, result.Translation, result.Size, 0.3f);
+      AnimateTo(result.PlacedWidget, result.Translation, result.Size, 0.1f);
     }
     else
     {

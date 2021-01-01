@@ -1132,7 +1132,7 @@ void Window::UpdateTransform()
     {
       mDropShadow->SetActive(true);
       mDropShadow->SetSize(mSize);
-      mDropShadow->SetTranslation(Pixels(6, 6, 0));
+      mDropShadow->SetTranslation(Pixels(4, 4, 0));
     }
     else
     {

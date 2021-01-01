@@ -1046,7 +1046,7 @@ void CreateEditor(OsWindow* mainWindow, StringParam projectFile, StringParam new
       toolBarArea->SetDockArea(DockArea::TopTool);
 
       Spacer* spacer = new Spacer(toolBarArea);
-      spacer->SetSize(Pixels(3, 0));
+      spacer->SetSize(Pixels(6, 0));
       spacer->SetDockMode(DockMode::DockLeft);
 
       rootWidget->mMainMenu->SetActive(true);
@@ -1063,33 +1063,35 @@ void CreateEditor(OsWindow* mainWindow, StringParam projectFile, StringParam new
       primaryTools->SetDockMode(DockMode::DockLeft);
 
       // Edit Tools
-      ToolBar* editTools = new ToolBar(toolBarArea);
-      editTools->LoadMenu("EditToolsToolbar");
-      editTools->SetDockMode(DockMode::DockLeft);
+      // ToolBar* editTools = new ToolBar(toolBarArea);
+      // editTools->LoadMenu("EditToolsToolbar");
+      // editTools->SetDockMode(DockMode::DockLeft);
 
-      ToolBar* addBar = new ToolBar(toolBarArea);
-      addBar->LoadMenu("ResourceToolbar");
-      addBar->SetDockMode(DockMode::DockLeft);
+      // ToolBar* addBar = new ToolBar(toolBarArea);
+      // addBar->LoadMenu("ResourceToolbar");
+      // addBar->SetDockMode(DockMode::DockLeft);
 
       // Extra windows
-      ToolBar* windowsGroup = new ToolBar(toolBarArea);
-      editTools->LoadMenu("WindowsToolbar");
-      windowsGroup->SetDockMode(DockMode::DockLeft);
+      // ToolBar* windowsGroup = new ToolBar(toolBarArea);
+      // editTools->LoadMenu("WindowsToolbar");
+      // windowsGroup->SetDockMode(DockMode::DockLeft);
 
+      ToolBar* debuggerToolbar = new ToolBar(toolBarArea);
+      debuggerToolbar->SetDockMode(DockMode::DockLeft);
+      debuggerToolbar->LoadMenu("DebuggerToolbar");
+      
       ToolBar* gameToolbar = new ToolBar(toolBarArea);
       gameToolbar->SetTranslation(Pixels(825, 0, 0));
       gameToolbar->SetDockMode(DockMode::Enum(DockMode::DockLeft | DockMode::DockRight));
       gameToolbar->LoadMenu("GameToolbar");
 
-      ToolBar* helpToolbar = new ToolBar(toolBarArea);
-      helpToolbar->SetTranslation(Pixels(1856, 0, 0));
-      helpToolbar->SetDockMode(DockMode::DockRight);
-      new BackgroundTaskButton(helpToolbar);
-      helpToolbar->LoadMenu("HelpToolbar");
+      // ToolBar* helpToolbar = new ToolBar(toolBarArea);
+      // helpToolbar->SetTranslation(Pixels(1856, 0, 0));
+      // helpToolbar->SetDockMode(DockMode::DockRight);
+      // new BackgroundTaskButton(helpToolbar);
+      // helpToolbar->LoadMenu("HelpToolbar");
 
-      ToolBar* debuggerToolbar = new ToolBar(toolBarArea);
-      debuggerToolbar->SetDockMode(DockMode::DockRight);
-      debuggerToolbar->LoadMenu("DebuggerToolbar");
+
     }
   }
 

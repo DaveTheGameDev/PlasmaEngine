@@ -35,14 +35,14 @@ inline Action* DestroyAction(Widget* widget)
   return new CallAction<Widget, &Widget::Destroy>(widget);
 }
 
-inline void AnimateTo(Widget* widget, Vec3Param position, Vec2Param size, float time = 0.3f)
+inline void AnimateTo(Widget* widget, Vec3Param position, Vec2Param size, float time = 0.1f)
 {
   widget->GetActions()->Cancel();
   Action* group = MoveAndSizeWidgetAction(widget, position, size, time);
   widget->GetActions()->Add(group, ActionExecuteMode::FrameUpdate);
 }
 
-inline void AnimateToSize(Widget* widget, Vec2Param size, float time = 0.3f)
+inline void AnimateToSize(Widget* widget, Vec2Param size, float time = 0.1f)
 {
   widget->GetActions()->Cancel();
   Action* group = SizeWidgetAction(widget, size, time);

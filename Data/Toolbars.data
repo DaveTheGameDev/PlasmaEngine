@@ -9,16 +9,6 @@ Menus menus =
 		]
 	},	
 
-
-	Menu =
-	{
-		string Name = "ResourceToolbar",
-		Array Entries = 
-		[
-		  "Add",
-		]
-	},	
-
 	Menu =
 	{
 		string Name = "PrimaryToolsToolbar",
@@ -31,46 +21,6 @@ Menus menus =
 		  "ManipulatorTool",
 		]
 	},
-
-	Menu =
-	{
-		string Name = "EditToolsToolbar",
-		Array Entries = 
-		[
-		  "TileEditor2D",
-		  "HeightMapTool",
-		  "JointTool",
-		  "CreationTool",
-		  "Divider",
-		  "Divider",
-		  "Divider",
-		]
-	},	
-	
-	Menu =
-	{
-		string Name = "AdditionalToolsToolbar",
-		stirng Icon = "ToolGroup",
-		Array Entries = 
-		[
-		  //"GeometryPainter2D",
-		  //"GeometryPointManipulator",
-		]
-	},	
-	
-	Menu =
-	{	
-		string Name = "WindowsToolbar",
-		Array Entries = 
-		[
-		  "Animator",
-		  "Console",
-		  "Properties",
-		  "Objects",
-		  "Library",
-		  "FindAll",
-		]
-	}
 	
 	Menu =
 	{	
@@ -94,18 +44,6 @@ Menus menus =
 			"DebuggerStepIn",
 			"DebuggerStepOver",
 			"DebuggerStepOut",
-		]
-	}
-	
-	Menu =
-	{	
-		string Name = "HelpToolbar",
-		Array Entries = 
-		[
-			"Chat",
-			"Market",
-			"Divider",
-			"ReportBug",
 		]
 	}
 },	

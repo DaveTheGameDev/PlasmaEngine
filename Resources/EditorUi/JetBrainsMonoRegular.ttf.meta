@@ -1,0 +1,9 @@
+[Version:1]
+FontContent 
+{
+	FontBuilder 
+	{
+		var Name = "JetBrainsMonoRegular"
+		var ResourceId = 0x5f97941d5fcee9ea
+	}
+}
