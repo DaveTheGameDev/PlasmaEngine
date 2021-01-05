@@ -64,7 +64,7 @@ Cog
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = true
 				var DrawOnTop = true
-				var Size = Real3{0.5, 0.5, 0.5}
+				var Size = Real3{0.200000003, 0.200000003, 0.200000003}
 				var SnapDistance = 0.25
 				var ViewAligned = false
 				var Filled = true
@@ -102,8 +102,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0, 0, 1, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.294117689, 0.498039126, 0.894117713, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = true
 				var DrawOnTop = true
@@ -145,8 +145,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{1, 0, 0, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.835294187, 0.188235343, 0.188235343, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = true
 				var DrawOnTop = true
@@ -188,8 +188,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0, 1, 0, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.109803915, 0.611764729, 0.160784304, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = true
 				var DrawOnTop = true
@@ -237,8 +237,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{1, 0, 0, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.835294187, 0.188235343, 0.188235343, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true
@@ -288,8 +288,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0, 1, 0, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.109803915, 0.611764729, 0.160784304, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true
@@ -339,8 +339,8 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0, 0, 1, 0.400000006}
-				var HoverColor = Real4{1, 1, 0, 0.400000006}
+				var Color = Real4{0.294117689, 0.498039126, 0.894117713, 1}
+				var HoverColor = Real4{1, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true

@@ -525,7 +525,7 @@ Tweakables
 			var TabXHighlight = Vec4{1, 1, 1, 1}
 			var BackgroundColor = Vec4{0.258823991, 0.258823991, 0.258823991, 1}
 			var BorderColor = Vec4{0.1, 0.1, 0.1, 1}
-			var TitleBarHeight = 18
+			var TitleBarHeight = 16
 			var CloseSize = 24
 			var BorderSize = Vec2{2, 2}
 			var ModifiedColor = Vec4{0.278, 0.705, 0.858, 1}

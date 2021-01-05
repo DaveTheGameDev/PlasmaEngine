@@ -64,14 +64,14 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{1, 0, 0, 1}
+				var Color = Real4{0.834999979, 0.187875032, 0.187875032, 1}
 				var HoverColor = Real4{0.920000017, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true
 				var Radius = 2
 				var Width = 2
-				var SegmentModifier = 1
+				var SegmentModifier = 1.5
 				var SelectRadius = 0.100000001
 				var DragRadiansPerPixel = 0.00999999978
 				var BackShade = false
@@ -120,14 +120,14 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0, 0.100000001, 1, 1}
+				var Color = Real4{0.295349956, 0.499230921, 0.894999981, 1}
 				var HoverColor = Real4{0.920000017, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true
 				var Radius = 2
 				var Width = 2
-				var SegmentModifier = 1
+				var SegmentModifier = 1.5
 				var SelectRadius = 0.100000001
 				var DragRadiansPerPixel = 0.00999999978
 				var BackShade = false
@@ -176,14 +176,14 @@ Cog
 			{
 				var MouseInput = true
 				var PickingPriority = 0
-				var Color = Real4{0.109999999, 1, 0, 1}
+				var Color = Real4{0.109799981, 0.610000014, 0.15982005, 1}
 				var HoverColor = Real4{0.920000017, 1, 0, 1}
 				var ViewScaled = true
 				var UseParentAsViewScaleOrigin = false
 				var DrawOnTop = true
 				var Radius = 2
 				var Width = 2
-				var SegmentModifier = 1
+				var SegmentModifier = 1.5
 				var SelectRadius = 0.100000001
 				var DragRadiansPerPixel = 0.00999999978
 				var BackShade = false
